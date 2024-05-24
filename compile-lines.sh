@@ -1,1 +1,0 @@
-javac --module-source-path module-source -d module-classes $(find module-source -name "*.java")
