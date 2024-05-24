@@ -1,0 +1,17 @@
+
+COMMAND NUMBER 1)
+
+There are two parts to this command, the javac and find commands.
+
+The find command is simply outputting a list of all .java files under our simple-modules directory. We can then feed that list directly into the Java compiler.
+
+The only thing we have to do differently than the older versions of Java is to provide a module-source-path parameter to inform the compiler that it’s building modules.
+
+Once we run this command, we will have an outDir folder with two compiled modules inside.
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
